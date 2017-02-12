@@ -1,0 +1,54 @@
+author=<A HREF=mailto:support@cumulus.no>Support@Cumulus.no</A>
+config_link=Check <A HREF=/config.cgi?block>Module Configuration</A>
+erule_action=Action
+erule_comment=Comment
+erule_crule=Create a new rule
+erule_dest=Destination
+erule_frag=F
+erule_log=L
+erule_return=module index
+erule_source=Source
+erule_title=Rules
+erule_tos=TOS
+filters=Filter status
+index_scripts=Scripts
+lib_err_of=You have not entered an objects file. It is needed because all object definitions will be written with the appropriate directives into this script file. $1
+lib_err_policy=You have not entered a policy path. It is needed because all firewall definitions will be stored in this directory. $1
+lib_err_protomis=Cannot find protocol file. $1
+lib_err_rf=You have not entered a rule file. It is needed because all rules will be written with the appropriate directives into this script file. $1
+lib_err_sf=You have not entered a services file. It is needed because all services definitions  will be written with the appropriate directives into this script file. $1
+lib_err_sfcm=You have not entered a script file. It is needed because all rules will be written with the appropriate directives into this script file. $1
+lib_err_vf', $text{'config_link=UNDEFINED lib_err_vf', $text{'config_link
+lib_icmptsel=ICMP-Type Selection
+log=Firewall Log
+logs=Logs
+lrules_err_acl=You are not allowed to list rules.
+no=No
+objects=Objects
+return_to_top=Firewall index
+rules=Regelsett
+services=Services
+sgen_title=Script generator
+sman_err_procneeded=This feature needs the "Running Processes" Module. Check if it is installed and your OS supported.
+sman_err_read=Can not read script file.
+sman_err_write=Failed to write script file!
+sman_exec_err=It seems that there occured an error:
+sman_exec_ok=Script executed successfully.
+sman_msg_exec=Script file not executable.. Changing. Now executable.
+srule_err_acl=You are not allowed to create rules.
+srule_err_acl2=You are not allowed to edit rules.
+srule_err_nochain=No chain to edit!
+srule_err_servport=If you define a service as port you must choose TCP or UDP protocol!
+vpn_index=VPN
+yes=Yes
+
+
+acl_lrules=User allowed to list rules?
+acl_erules=User allowed to edit rules?
+acl_vobject=User allowed to view objects?
+
+acl_vlogs=User allowed to view logs?
+
+acl_exscript=User allowed to execute blocking scripts ?
+acl_vscript=User allowed to view blocking scripts ?
+

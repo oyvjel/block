@@ -1,0 +1,20 @@
+<header>Blocklist</header>
+
+Blocklist definerer blokkering av trafikk mellom nettverksobjekter definert
+som grupper av en eller fler ipadresse/subnettmaske.
+<p>
+Blokkeringen gjelder kun spesifiserte tjeneste eller tjenestegruppe.
+<p>
+Tjenester og objekter må defineres i <b>Cumulus Firewall</B> av
+brannmuradministrator. Blocklist tillater brukere med lavere privilegier å
+spesifisere hvilke blokkeringsregler som til enhver tid skal være aktive.
+<p>
+<h2>Squid Aksesslister</h2>
+Administrator kan sette opp aksesslister i en separat fil under
+konfigurasjonsområdet til brannmur.
+<p>
+Brukere med blokklistetilgang kan endre aksjonen i disse reglene, og endringene blir automatisk
+lagt inn i konfigurasjonen av squid proxyen.
+<p>
+Normalt vil kun et subsett av alle aksessreglene være tilgjengelig for
+modifikasjon på denne måten.

@@ -1,0 +1,18 @@
+k1=<HR></td><td><hr><h3>--------Default Policy---------</h3>,-1
+hide=Hide accept/return rules,1,0-Nei,1-Ja
+
+
+k3=<HR></td><td><hr><h3>--------Policy files ---------</h3>,-1
+policypath=Path to policy ( dir ),0
+rule=Ruleset name,0
+bootloc=Location of bootup and shutdown scripts,0
+logfile=Log file,0
+squidconf=Squid config path,0
+acl=Acl name,0
+
+k4=<HR></td><td><hr><h3>--------OS files ---------</h3>,-1
+#netifaces=Network Interfaces (comma-separated list),-1,Use Network Configuration Module for detecting
+scriptinterpreter=Script interpreter,3,Default (/bin/sh)
+ipchains_path=Path to ipchains,3,Default (/sbin/ipchains)
+proto_file=Path to protocols file,3,Default (/etc/protocols)
+hostsfile=Path to your hosts file,3,Default (/etc/hosts)

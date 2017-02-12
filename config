@@ -1,0 +1,11 @@
+rule=blocklist
+hostsfile=
+scriptinterpreter=
+bootloc=/etc/init.d
+proto_file=
+ipchains_path=
+policypath=/etc/webmin/cfw
+squidconf=/etc/squid.conf
+acl=squid.acl2
+hide=
+logfile=

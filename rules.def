@@ -1,0 +1,11 @@
+Any,FW,anyany,,0,0x00,RETURN,0,BLOCKLIST_RULESET Ikke blokker FW aksess!
+Any,Any,anyany,,1,0x00,REJECT,1,BLOKKERER ALT! ( - admin aksess)
+Any,FW,anyany,,1,0x00,REJECT,1,Blokker alle proxier
+Any,FW,squid,,1,0x00,REJECT,1,Blokker squid proxy
+LAN,Any,anyany,,1,0x00,REJECT,1,Blokker alt fra LAN
+LAN,FW,anyany,,1,0x00,REJECT,1,Blokker alle proxy fra LAN
+LAN,FW,squid,,1,0x00,REJECT,1,Blokker squid proxy fra LAN
+COM,Any,anyany,,1,0x00,REJECT,1,Blokker alt fra COM
+COM,FW,anyany,,1,0x00,REJECT,1,Blokker alle proxy fra COM
+COM,FW,squid,,1,0x00,REJECT,1,Blokker squid proxy fra COM
+Any,INTERNET,anyany,,1,0x00,REJECT,1,BLOKKERER ALT TIL INTERNET
